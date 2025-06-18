@@ -27,6 +27,7 @@ defaults:
 
 jobs:
   terraform:
+    environment: development
     runs-on: ubuntu-latest
     env:
       tf_version: '0.14.8'
