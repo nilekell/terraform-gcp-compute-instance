@@ -11,7 +11,7 @@ variable "network" {
 variable "machine_type" {
   description = "The machine type to be associated with the compute instance."
   type        = string
-  default     = "n1-standard-2"
+  default     = "n1-standard-1"
 }
 
 variable "image" {
