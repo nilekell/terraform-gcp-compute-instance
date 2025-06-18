@@ -30,3 +30,4 @@ override.tf.json
 
 # Prevent uploading project config output
 gcp_project_configuration_info.json
+key.json
