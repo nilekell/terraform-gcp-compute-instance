@@ -43,6 +43,11 @@ jobs:
         id: checkout_code
         uses: actions/checkout@v2
 
+      - name: Set up Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: 0.14.8
+
       # Config authentication to Google Cloud
       - id: auth
         uses: google-github-actions/auth@v0
